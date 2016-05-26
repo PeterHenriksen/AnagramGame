@@ -41,7 +41,9 @@ final class StaticWordLibrary extends WordLibrary {
         "sort",
         "hund",
         "dame",
-        "bord"
+        "bord",
+        "mand",
+        "stol"
     };
 
     private static final String[] SCRAMBLED_WORD_LIST = {
@@ -49,7 +51,9 @@ final class StaticWordLibrary extends WordLibrary {
         "tors",
         "dunh",
         "made",
-        "drob"
+        "drob",
+        "danm",
+        "tols"
     };
     
     final static WordLibrary DEFAULT = new StaticWordLibrary();
